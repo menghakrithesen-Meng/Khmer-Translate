@@ -1,0 +1,5 @@
+{
+  "name": "Khmer SRT Translator",
+  "description": "A professional tool to translate SRT subtitle files into Khmer using Gemini AI, preserving exact timecodes and formatting.",
+  "requestFramePermissions": []
+}
