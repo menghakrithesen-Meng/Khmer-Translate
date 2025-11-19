@@ -20,7 +20,7 @@ export const FileUpload: React.FC<FileUploadProps> = ({ onFileSelect, status }) 
     }
   };
 
-  const isDisabled = status === TranslationStatus.TRANSLATING || status === TranslationStatus.PARSING;
+  const isDisabled = status === TranslationStatus.TRANSLATING || status === TranslationStatus.PAUSED;
 
   return (
     <div className="w-full max-w-2xl mx-auto mb-8">

@@ -9,7 +9,9 @@ export interface SrtBlock {
 export enum TranslationStatus {
   IDLE = 'IDLE',
   PARSING = 'PARSING',
+  READY = 'READY',
   TRANSLATING = 'TRANSLATING',
+  PAUSED = 'PAUSED',
   COMPLETE = 'COMPLETE',
   ERROR = 'ERROR',
 }
